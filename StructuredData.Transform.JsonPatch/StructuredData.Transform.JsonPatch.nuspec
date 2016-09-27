@@ -2,21 +2,21 @@
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>StructuredData.Transform.JsonPatch</id>
-    <version>0.1.0.0</version>
+    <version>0.9.0.0</version>
     <authors>Simon Hanlon</authors>
     <owners>Simon Hanlon</owners>
-    <description>Extensible library for transforming structured transport data (e.g. xml / json)</description>
-    <projectUrl>http://github.com/simonH/StructuredData.Transform</projectUrl>
+    <description>structuredData.Transform implementation for json using JsonPatch</description>
+    <projectUrl>http://github.com/simonH/StructuredData.Transform.JsonPatch</projectUrl>
     <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
-    <tags>structured transport data transformation</tags>
+    <tags>structured transport data transformation json jsonpatch</tags>
     <language>en-us</language>
     <dependencies>
-      <dependency id="StructuredData.Transform" version="[0.1.0.0]" />
+      <dependency id="StructuredData.Transform" version="0.9.0.0" />
       <dependency id="Newtonsoft.Json" version="9.0.1" />
       <dependency id="Marvin.JsonPatch.Dynamic" version="1.0.0" />
     </dependencies>
   </metadata>
   <files>
-    <file src="StructuredData.Transform\bin\Release\StructuredData.Transform.*" target="lib\net40" />
+    <file src="StructuredData.Transform.JsonPatch\bin\Release\StructuredData.Transform.JsonPatch.*" target="lib\net40" />
   </files>
 </package>
