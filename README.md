@@ -9,6 +9,6 @@ Available as a package on [Nuget](https://www.nuget.org/packages/StructuredData.
 * Install the package and it's dependencies  
    > install-package StructuredData.Transform.JsonPatch
 * Use one of the extension methods on StructuredDataTransform
-   [E.g. <source json text>.Transform(<transform data text>, "application/json", "jsonPatch")]
+   [E.g. "source json text".Transform("json patch data", "application/json", "jsonPatch")]
    
 
